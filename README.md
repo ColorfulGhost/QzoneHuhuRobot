@@ -7,9 +7,7 @@
 并自行设置内部参数即可
 
 
-
-说说范例：  
-呼呼呼呼呼呼    
+ 
 
 'Cause rainbow won't light up the sky unless you let it rain.  
 
@@ -20,8 +18,12 @@ requests
 ...剩下的你们自己看吧,那里报错装那里
 
 
+配置好参数后
+```
+python3 main.py
+```
 
-我使用的是python3.6
+request api:http://0.0.0.0:89/sendMsgToQQZone
 
 感谢:
 
