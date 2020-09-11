@@ -1,6 +1,5 @@
 # QzoneHuhuRobot  
-# QQ空间（Qzone）自动发说说  
-每天自动获取当地的风速并发送说说  
+# QQ空间（Qzone）自动发说说 API
 
 将.env.example改名为.env
 
