@@ -1,0 +1,8 @@
+selenium==3.141.0
+Flask==1.1.1
+opencv_python==4.0.1.24
+Flask_RESTful==0.3.8
+numpy==1.18.1
+requests==2.22.0
+Pillow==7.2.0
+python-dotenv==0.14.0

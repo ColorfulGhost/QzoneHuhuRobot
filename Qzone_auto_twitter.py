@@ -4,7 +4,6 @@ import random
 import json
 import re
 import datetime
-import sys
 import traceback
 from io import BytesIO
 from urllib.request import urlretrieve
@@ -19,14 +18,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-import jieba
-import jieba.analyse
-import logging
-from wordcloud import WordCloud
 from dotenv import load_dotenv
 import base64
-import asyncio
-
 
 def catch_exception(origin_func):
     def wrapper(self, *args, **kwargs):
@@ -503,7 +496,7 @@ class QzoneSpider(object):
             elif 'ret' in msg_data:
                 code = msg_data['ret']
             else:
-                print(查找code出错)
+                print('查找code出错')
             print(code)
             if code == -100:
                 print('由于之前缓存的 cookies 文件已失效，将尝试自动重新登录...')
